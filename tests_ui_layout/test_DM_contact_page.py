@@ -5,7 +5,7 @@ from pom.DM_contact_page import ContactPage
 
 
 def test_submit_form(playwright: Playwright):
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch()
     #context = browser.new_context()
     page = browser.new_page()
     #page.goto("https://dm-group.com.pl/contact/")
